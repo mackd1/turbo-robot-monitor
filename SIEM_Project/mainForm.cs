@@ -40,7 +40,7 @@ namespace SIEM_Project
 
             netMon.Show();
             pMon.Show();
-            aView.Show();
+            //aView.Show();
 
             this.LayoutMdi(MdiLayout.TileVertical);
         }

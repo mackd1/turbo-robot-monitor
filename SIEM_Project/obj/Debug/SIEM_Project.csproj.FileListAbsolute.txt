@@ -13,3 +13,18 @@ C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Proj
 C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.NetworkMonitor.resources
 C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.ProcessMonitor.resources
 C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.AlertViewer.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\bin\Debug\SIEM_Project.exe.config
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\Interop.ADOX.dll
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.csproj.ResolveComReference.cache
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.exe
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.pdb
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\bin\Debug\SIEM_Project.exe
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\bin\Debug\SIEM_Project.pdb
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.csprojResolveAssemblyReference.cache
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.AlertViewer.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.BaselineGeneratorForm.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.mainForm.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.NetworkMonitor.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.ProcessMonitor.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.Properties.Resources.resources
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.csproj.GenerateResource.Cache

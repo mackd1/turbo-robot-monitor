@@ -94,8 +94,8 @@ namespace SIEM_Project
 
             this.Text = "Number of TCP connections: " + tcpConns.ToString() + " | " + avgTcpConns.ToString() + " is historical average";
 
-            if (avgTcpConns < tcpConns)
-                AlertSender.SendMessage("Exceeded baseline TCP connections, possible attack", "Network");
+            //if (avgTcpConns < tcpConns)
+                //AlertSender.SendMessage("Exceeded baseline TCP connections, possible attack", "Network");
         }
 
         public string GetTCPState(uint stateNum)

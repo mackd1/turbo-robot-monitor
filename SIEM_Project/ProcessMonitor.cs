@@ -297,7 +297,7 @@ namespace SIEM_Project
             {
                 processListView.Items[FindItemIndex(pInfo.id)].BackColor = Color.Red;
                 // Process is in the red, so send an alert
-                AlertSender.SendMessage("Process " + pInfo.id.ToString() + " (" + pInfo.processName + ") is utilizing more resources than baseline", "Process");
+                // AlertSender.SendMessage("Process " + pInfo.id.ToString() + " (" + pInfo.processName + ") is utilizing more resources than baseline", "Process");
             }
             else if (numAbove >= 3)
                 processListView.Items[FindItemIndex(pInfo.id)].BackColor = Color.Yellow;

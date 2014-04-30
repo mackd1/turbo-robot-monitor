@@ -1,0 +1,6 @@
+﻿Ideas for implementation
+ - Refine data collection for processes
+   - Collect the number of TCP/UDP connections a process usually has open
+   - Does finding the average number of TCP connections open really help?
+ - Fix alert system
+   - Don't send alerts based on time alone, create a new method that allows for togglable alerts
