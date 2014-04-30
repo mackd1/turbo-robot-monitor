@@ -1,0 +1,15 @@
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\bin\Debug\SIEM_Project.exe.config
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.csprojResolveAssemblyReference.cache
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.mainForm.resources
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.Properties.Resources.resources
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.csproj.GenerateResource.Cache
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\bin\Debug\SIEM_Project.exe
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\bin\Debug\SIEM_Project.pdb
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.exe
+c:\users\ferrousrex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.pdb
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\Interop.ADOX.dll
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.csproj.ResolveComReference.cache
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.BaselineGeneratorForm.resources
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.NetworkMonitor.resources
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.ProcessMonitor.resources
+C:\Users\FerrousRex\documents\visual studio 2012\Projects\SIEM_Project\SIEM_Project\obj\Debug\SIEM_Project.AlertViewer.resources
