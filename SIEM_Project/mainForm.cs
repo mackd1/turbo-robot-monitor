@@ -29,6 +29,9 @@ namespace SIEM_Project
 
         private void mainForm_Load(object sender, EventArgs e)
         {
+            FormatTestForm fTest = new FormatTestForm();
+            fTest.Show();
+
             // Open all of the MDI Sub-windows
             netMon = new NetworkMonitor();
             pMon = new ProcessMonitor();

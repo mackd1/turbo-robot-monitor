@@ -4,3 +4,16 @@
    - Does finding the average number of TCP connections open really help?
  - Fix alert system
    - Don't send alerts based on time alone, create a new method that allows for togglable alerts
+ - Create "Open Folder" option for processes and resources
+ - Identify processes by their absolute path, or maybe try hashing the file?
+
+Process data to collect: 
+ - name
+ - id
+ - num modules
+ - num threads
+ - num handles
+ - mem used
+ - base priority
+ - cpu time
+ - number of TCP connections open

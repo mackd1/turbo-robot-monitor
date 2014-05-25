@@ -28,3 +28,4 @@ C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\
 C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.ProcessMonitor.resources
 C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.Properties.Resources.resources
 C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.csproj.GenerateResource.Cache
+C:\Users\FerrousRex\Documents\GitHub\turbo-robot-monitor\SIEM_Project\obj\Debug\SIEM_Project.FormatTestForm.resources
