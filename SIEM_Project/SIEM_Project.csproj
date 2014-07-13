@@ -80,6 +80,12 @@
     <Compile Include="NetworkMonitor.Designer.cs">
       <DependentUpon>NetworkMonitor.cs</DependentUpon>
     </Compile>
+    <Compile Include="NetworkMonitor_Advanced.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NetworkMonitor_Advanced.Designer.cs">
+      <DependentUpon>NetworkMonitor_Advanced.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewClasses\ProcessInfo.cs" />
     <Compile Include="NewClasses\ProcessInfoList.cs">
       <SubType>UserControl</SubType>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="NetworkMonitor.resx">
       <DependentUpon>NetworkMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NetworkMonitor_Advanced.resx">
+      <DependentUpon>NetworkMonitor_Advanced.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewClasses\ProcessInfoList.resx">
       <DependentUpon>ProcessInfoList.cs</DependentUpon>

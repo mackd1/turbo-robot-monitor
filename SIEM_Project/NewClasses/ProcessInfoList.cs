@@ -10,6 +10,8 @@ using System.Windows.Forms;
 
 using System.Diagnostics;
 
+using System.Reflection;
+
 namespace SIEM_Project.NewClasses
 {
     public partial class ProcessInfoList : UserControl
@@ -17,6 +19,7 @@ namespace SIEM_Project.NewClasses
         public ProcessInfoList()
         {
             InitializeComponent();
+            ExtensionMethods.DoubleBuffered(this.processListGrid, true);
         }
 
         Dictionary<String, ProcessInfo> processList;
@@ -52,5 +55,15 @@ namespace SIEM_Project.NewClasses
         {
 
         }
+    }
+}
+
+public static class ExtensionMethods
+{
+    public static void DoubleBuffered(this DataGridView dgv, bool setting)
+    {
+        Type dgvType = dgv.GetType();
+        PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
+        pi.SetValue(dgv, setting, null);
     }
 }

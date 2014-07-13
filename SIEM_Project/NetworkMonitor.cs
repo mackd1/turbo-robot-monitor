@@ -12,6 +12,7 @@ using System.Runtime.InteropServices;
 using System.Net;
 using System.Net.NetworkInformation;
 using SIEM_Project.Classes;
+using System.Reflection;
 
 namespace SIEM_Project
 {
@@ -24,6 +25,8 @@ namespace SIEM_Project
         public NetworkMonitor()
         {
             InitializeComponent();
+
+            tcpGridView.DoubleBuffered(true);
         }
 
         private void NetworkMonitor_Load(object sender, EventArgs e)
@@ -131,6 +134,17 @@ namespace SIEM_Project
                 default:
                     return "Invalid State";
             }
+        }
+    }
+
+    //Put this class at the end of the main class or you will have problems.
+    public static class ExtensionMethods
+    {
+        public static void DoubleBuffered(this DataGridView dgv, bool setting)
+        {
+            Type dgvType = dgv.GetType();
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(dgv, setting, null);
         }
     }
 }

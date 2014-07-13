@@ -24,6 +24,8 @@ namespace SIEM_Project
         public ProcessMonitor()
         {
             InitializeComponent();
+
+            resourceGridView.DoubleBuffered(true);
         }
 
         private void ProcessMonitor_Load(object sender, EventArgs e)
@@ -144,7 +146,7 @@ namespace SIEM_Project
                     removeListItem(pair.Value.id.ToString());
                 }
             }
-            
+
             for (int i = 0; i < removeList.Count; i++)
             {
                 processDict.Remove(removeList[i]);
@@ -200,13 +202,13 @@ namespace SIEM_Project
             {
                 int pid = Convert.ToInt32(processListView.SelectedItems[0].Text);
                 UpdateProcessInfoPage(processDict[pid]);
-                Update_ResourcesGrid(pid);                
+                Update_ResourcesGrid(pid);
             }
             catch (ArgumentOutOfRangeException ex)
             {
                 // This happens apparently, just ignore it.
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, ex.GetType().ToString());
             }

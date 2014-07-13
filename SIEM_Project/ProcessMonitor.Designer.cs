@@ -268,7 +268,7 @@
             this.resourceInfo.Location = new System.Drawing.Point(4, 22);
             this.resourceInfo.Name = "resourceInfo";
             this.resourceInfo.Padding = new System.Windows.Forms.Padding(3);
-            this.resourceInfo.Size = new System.Drawing.Size(576, 458);
+            this.resourceInfo.Size = new System.Drawing.Size(455, 374);
             this.resourceInfo.TabIndex = 1;
             this.resourceInfo.Text = "Resource Information";
             this.resourceInfo.UseVisualStyleBackColor = true;
@@ -277,12 +277,11 @@
             // 
             this.resourceGridView.AllowUserToAddRows = false;
             this.resourceGridView.AllowUserToDeleteRows = false;
-            this.resourceGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.resourceGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.resourceGridView.Location = new System.Drawing.Point(3, 3);
             this.resourceGridView.Name = "resourceGridView";
             this.resourceGridView.ReadOnly = true;
-            this.resourceGridView.Size = new System.Drawing.Size(570, 452);
+            this.resourceGridView.Size = new System.Drawing.Size(449, 368);
             this.resourceGridView.TabIndex = 0;
             // 
             // refreshTimer
