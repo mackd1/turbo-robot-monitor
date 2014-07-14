@@ -12,9 +12,8 @@ namespace SIEM_Project
 {
     public partial class mainForm : Form
     {
-        //private ProcessViewer pView;
-        private NetworkMonitor netMon;
-        //private NetworkMonitor_Advanced netMon;
+        //private NetworkMonitor netMon;
+        private NetworkMonitor_Advanced netMon;
         private ProcessMonitor pMon;
         private AlertViewer aView;
 
@@ -34,8 +33,8 @@ namespace SIEM_Project
             fTest.Show();
 
             // Open all of the MDI Sub-windows
-            netMon = new NetworkMonitor();
-            //netMon = new NetworkMonitor_Advanced();
+            //netMon = new NetworkMonitor();
+            netMon = new NetworkMonitor_Advanced();
             pMon = new ProcessMonitor();
             aView = new AlertViewer();
 
