@@ -28,37 +28,67 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SplitContainer_NetInfo = new System.Windows.Forms.SplitContainer();
-            ((System.ComponentModel.ISupportInitialize)(this.SplitContainer_NetInfo)).BeginInit();
-            this.SplitContainer_NetInfo.SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.netmonSplitContainer = new System.Windows.Forms.SplitContainer();
+            this.tcpGridView = new System.Windows.Forms.DataGridView();
+            this.refreshTimer = new System.Windows.Forms.Timer(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.netmonSplitContainer)).BeginInit();
+            this.netmonSplitContainer.Panel1.SuspendLayout();
+            this.netmonSplitContainer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tcpGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // SplitContainer_NetInfo
+            // netmonSplitContainer
             // 
-            this.SplitContainer_NetInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SplitContainer_NetInfo.Location = new System.Drawing.Point(0, 0);
-            this.SplitContainer_NetInfo.Name = "SplitContainer_NetInfo";
-            this.SplitContainer_NetInfo.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            this.SplitContainer_NetInfo.Size = new System.Drawing.Size(674, 441);
-            this.SplitContainer_NetInfo.SplitterDistance = 89;
-            this.SplitContainer_NetInfo.TabIndex = 0;
+            this.netmonSplitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.netmonSplitContainer.Location = new System.Drawing.Point(0, 0);
+            this.netmonSplitContainer.Name = "netmonSplitContainer";
+            this.netmonSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // netmonSplitContainer.Panel1
+            // 
+            this.netmonSplitContainer.Panel1.Controls.Add(this.tcpGridView);
+            this.netmonSplitContainer.Size = new System.Drawing.Size(682, 261);
+            this.netmonSplitContainer.SplitterDistance = 232;
+            this.netmonSplitContainer.TabIndex = 0;
+            // 
+            // tcpGridView
+            // 
+            this.tcpGridView.AllowUserToAddRows = false;
+            this.tcpGridView.AllowUserToDeleteRows = false;
+            this.tcpGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tcpGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tcpGridView.Location = new System.Drawing.Point(0, 0);
+            this.tcpGridView.Name = "tcpGridView";
+            this.tcpGridView.ReadOnly = true;
+            this.tcpGridView.Size = new System.Drawing.Size(682, 232);
+            this.tcpGridView.TabIndex = 0;
+            // 
+            // refreshTimer
+            // 
+            this.refreshTimer.Tick += new System.EventHandler(this.refreshTimer_Tick);
             // 
             // NetworkMonitor_Advanced
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(674, 441);
-            this.Controls.Add(this.SplitContainer_NetInfo);
+            this.ClientSize = new System.Drawing.Size(682, 261);
+            this.Controls.Add(this.netmonSplitContainer);
             this.Name = "NetworkMonitor_Advanced";
-            this.Text = "Network Monitor";
-            ((System.ComponentModel.ISupportInitialize)(this.SplitContainer_NetInfo)).EndInit();
-            this.SplitContainer_NetInfo.ResumeLayout(false);
+            this.Text = "NetworkMonitor_Advanced";
+            this.Load += new System.EventHandler(this.NetworkMonitor_Advanced_Load);
+            this.netmonSplitContainer.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.netmonSplitContainer)).EndInit();
+            this.netmonSplitContainer.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tcpGridView)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.SplitContainer SplitContainer_NetInfo;
+        private System.Windows.Forms.SplitContainer netmonSplitContainer;
+        private System.Windows.Forms.DataGridView tcpGridView;
+        private System.Windows.Forms.Timer refreshTimer;
     }
 }

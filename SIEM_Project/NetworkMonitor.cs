@@ -59,7 +59,7 @@ namespace SIEM_Project
             }
 
             TCPInfo.MIB_TCPROW_OWNER_PID[] tcpConnTable = TCPInfo.GetAllTcpConnections();
-            
+
             for (int i = 0; i < tcpConnTable.Count(); i++)
             {
                 DataRow tempRow = tcpTable.NewRow();
