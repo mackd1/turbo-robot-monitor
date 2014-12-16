@@ -19,7 +19,12 @@ namespace SIEM_Project
 
         private void FormatTestForm_Load(object sender, EventArgs e)
         {
+            SetStyle(ControlStyles.SupportsTransparentBackColor, true);
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.BackColor = Color.Transparent;
         }
     }
 }

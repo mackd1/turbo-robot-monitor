@@ -22,7 +22,7 @@ namespace SIEM_Project.NewClasses
             ExtensionMethods.DoubleBuffered(this.processListGrid, true);
         }
 
-        Dictionary<String, ProcessInfo> processList;
+        Dictionary<String, ProcessInfo1> processList;
 
         private void ProcessInfoList_Load(object sender, EventArgs e)
         {
@@ -34,9 +34,9 @@ namespace SIEM_Project.NewClasses
         private void CreateProcessList()
         {
             Process[] currProcessList = Process.GetProcesses();
-            ProcessInfo tempProcess = new ProcessInfo();
+            ProcessInfo1 tempProcess = new ProcessInfo1();
 
-            processList = new Dictionary<String, ProcessInfo>();
+            processList = new Dictionary<String, ProcessInfo1>();
 
             foreach (Process proc in currProcessList)
             {

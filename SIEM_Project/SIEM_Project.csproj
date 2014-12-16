@@ -87,11 +87,15 @@
       <DependentUpon>NetworkMonitor_Advanced.cs</DependentUpon>
     </Compile>
     <Compile Include="NewClasses\ProcessInfo.cs" />
+    <Compile Include="NewClasses\ProcessInfo1.cs" />
     <Compile Include="NewClasses\ProcessInfoList.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="NewClasses\ProcessInfoList.Designer.cs">
       <DependentUpon>ProcessInfoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewClasses\ProcessThingyOfUltimatePower.cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="ProcessMonitor.cs">
       <SubType>Form</SubType>

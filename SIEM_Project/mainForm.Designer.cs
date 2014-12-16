@@ -37,6 +37,8 @@
             this.networkMonitorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.alertViewerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.debugToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.formatTesterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +46,8 @@
             // 
             this.menuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.windowsToolStripMenuItem});
+            this.windowsToolStripMenuItem,
+            this.debugToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Size = new System.Drawing.Size(1080, 24);
@@ -113,6 +116,21 @@
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "statusStrip1";
             // 
+            // debugToolStripMenuItem
+            // 
+            this.debugToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.formatTesterToolStripMenuItem});
+            this.debugToolStripMenuItem.Name = "debugToolStripMenuItem";
+            this.debugToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.debugToolStripMenuItem.Text = "Debug";
+            // 
+            // formatTesterToolStripMenuItem
+            // 
+            this.formatTesterToolStripMenuItem.Name = "formatTesterToolStripMenuItem";
+            this.formatTesterToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.formatTesterToolStripMenuItem.Text = "Format Tester";
+            this.formatTesterToolStripMenuItem.Click += new System.EventHandler(this.formatTesterToolStripMenuItem_Click);
+            // 
             // mainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -144,6 +162,8 @@
         private System.Windows.Forms.ToolStripMenuItem processViewerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem networkMonitorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem alertViewerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem debugToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem formatTesterToolStripMenuItem;
     }
 }
 

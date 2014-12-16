@@ -90,5 +90,12 @@ namespace SIEM_Project
                 aView.Show();
             }
         }
+
+        private void formatTesterToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormatTestForm formatTestForm = new FormatTestForm();
+
+            formatTestForm.Show();
+        }
     }
 }
